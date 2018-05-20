@@ -3,4 +3,5 @@ Django==2.0.5
 djangorestframework==3.8.2
 djangorestframework-simplejwt==3.2.3
 social-auth-app-django==2.1.0
-
+gunicorn==19.7.1
+whitenoise==3.3.1

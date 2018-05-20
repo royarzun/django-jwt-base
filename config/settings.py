@@ -25,7 +25,7 @@ SECRET_KEY = 'qn&nq%y%^&@db+qh_ck1s4#sgz(2)*u+4r+=726%=$mki$9yk)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['hotbotics-hotlist-backend.herokuapp.com', '127.0.0.1:8000']
 
 LOGIN_URL = 'login'
 LOGOUT_URL = 'logout'
@@ -63,6 +63,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'config.urls'
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 TEMPLATES = [
     {
